@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="sayiTahmin.css">
+    <title>Sayı Tahmin Oyunu</title>
+</head>
+<body>
+    <h1 style="color: black;">1 - 100 Arasında Sayı Giriniz</h1>
+    <button onclick="vkiCalistir()"  id="projeGecis">Vücut Kitle İndeksi Hesaplama</button>
+    <table class="tablo">
+        <tr>
+            <td>
+                Tahmininiz
+            </td>
+            <td>
+                <input type="text" id="tahmin">
+                <br>
+                <span id="tahminhata"></span>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" style="text-align: center;">
+                <p id="sonuc"></p>
+                <p id="hak"></p>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <div class="buttonyer">
+                    <button id="tahminButton" onclick="sayiTahmin()">Tahmin Et</button>
+                    <button onclick="sifirlaTahmin()">Sıfırla</button>
+                </div>
+            </td>
+        </tr>
+    </table>
+    <script src="sayiTahmin.js"></script>
+</body>
+</html>

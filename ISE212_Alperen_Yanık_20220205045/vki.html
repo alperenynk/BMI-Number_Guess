@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="vki.css">
+    <title>Vücut Kitle İndeksi Hesaplama</title>
+</head>
+<body>
+    <h1 style="color: black;">Vücut Kitle İndeksi Hesaplama</h1>
+    <button onclick="sayiTahminCalistir()" id="projeGecis">Sayı Tahmin Oyunu</button>
+    <table class="tablo">
+        <tr>
+            <td>
+                Boyunuz CM Cinsinden
+            </td>
+            <td>
+                <input type="text" id="boy">
+                <br>
+                <span id="boyhata"></span>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Kilonuz KG Cinsinden
+            </td>
+            <td>
+                <input type="text" id="kilo">
+                <br>
+                <span id="kilohata"></span>
+            </td>
+        </tr>
+        <!-- 
+            A 2-column field with colspan "2" 
+            Allows Centering of Text Using
+            I provided. Also with the code text-align: center; 
+            I've Centered the Writings
+        -->
+        <tr>
+            <td colspan="2" style="text-align: center;">
+                <p id="output"></p>
+            </td>
+        </tr>
+        <tr>
+        <!--
+            A 2 Column Field with colspan "2" Code 
+            Allow Centering of Buttons Using
+            I opened a field with the div code and
+            Both Separately text-align: center;
+            Code Instead of Using This Code in One
+            Add to Class and Add Buttons to this Class
+            Included
+        -->
+            <td colspan="2">
+                <div class="buttonyer">
+                    <button onclick="hesaplaVKI()">Hesapla</button>
+                    <button onclick="sifirlaVKI()">Sıfırla</button>
+                </div>
+            </td>
+        </tr>
+    </table>
+    <script src="vki.js"></script>
+</body>
+</html>

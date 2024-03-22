@@ -1,0 +1,52 @@
+body {
+    color: wheat;
+    background: rgb(92, 185, 216);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+span {
+    color: red; 
+}
+
+.tablo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 15px;
+    background: black;
+    border-radius: 5px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+input {
+    outline: none;
+    border: none;
+    padding: 5px;
+}
+
+.buttonyer {
+    text-align: center;
+}
+
+button {
+    color: wheat;
+    padding: 10px;
+    border: 2px solid white;
+    background: black;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 6%;
+}
+
+#projeGecis {
+    position: absolute;
+    top: 27.5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 2px solid black;
+}
